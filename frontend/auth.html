@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login / Register</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light vh-100 d-flex align-items-center">
+<div class="container">
+  <div class="row shadow-lg rounded overflow-hidden">
+    <div class="col-md-6 bg-white">     
+            <div class="p-4">
+                <div class="custom-header rounded "><h4 class="text-center text-white p-2">Login</h4></div>
+                             <input class="form-control mb-3" type="email" placeholder="Email" id="login-email">
+                <input class="form-control mb-3" type="password" placeholder="Password" id="login-password">
+                <input type="checkbox" onclick="Show_pass()">Show Password 
+                <a class="custom-link" href="http://Reset_link">Reset Password</a><br><br>
+                <button class="custom-btn" onclick="loginUser()">Login</button>
+            </div>
+    </div>
+          <div class="col-md-6 bg-light">
+        <div class="p-4">
+                <div class="custom-header rounded">
+                    <h4 class="text-center text-white p-2">Register</h4>
+                </div>   
+            <input class="form-control mb-3" type="text" placeholder="Username" id="reg-firstname">
+            <input class="form-control mb-3" type="text" placeholder="Username" id="reg-lastname">
+            <input class="form-control mb-3" type="email" placeholder="Email" id="reg-email">
+            <input class="form-control mb-3" type="password" placeholder="Password" id="reg-password">
+            <input type="checkbox" onclick="Show_pass1()">Show Password  <br>
+            <button class="custom-btn" onclick="registerUser()">Register</button>     
+        </div>    
+    </div>
+ </div>
+</div>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.1415.0.min.js"></script>
+<script src="https://unpkg.com/amazon-cognito-identity-js@6.3.6/dist/amazon-cognito-identity.min.js"></script>
+<script src="/auth.js"></script>
+</body>
+</html>

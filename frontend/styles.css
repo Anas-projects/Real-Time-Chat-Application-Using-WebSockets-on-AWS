@@ -1,0 +1,53 @@
+
+.custom-header {
+  background-color: #4a563e !important;
+  
+}
+.custom-btn {
+  background-color: #d4d59b;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 26px;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.custom-link{
+  color: #4a563e ;
+}
+.custom-side{
+  align-items: end;
+}
+
+.chat-box {
+  height: 350px;
+  overflow-y: auto;
+  background: #f8f9fa;
+}
+.custom-nav-btn {
+  background-color: #d4d59b;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 5px 20px;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.custom-connect-btn {
+  background-color: #a6d59b;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 5px 20px;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.custom-disconnect-btn {
+  background-color: #d59b9b;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 5px 20px;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
